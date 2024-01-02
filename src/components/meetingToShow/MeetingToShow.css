@@ -1,0 +1,11 @@
+.red {
+    border: #ff6a6786 solid 4px;
+}
+
+.green {
+    border: #c7ff879f solid 4px;
+}
+
+.orange {
+    border: rgba(255, 187, 0, 0.322) solid 4px;
+}
