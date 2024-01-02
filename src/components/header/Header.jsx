@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { observer } from "mobx-react"
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -14,7 +15,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { Button } from '@mui/material';
-import { observer } from "mobx-react"
+
 
 import './Header.css'
 import logo2 from '../../assets/images/logo2.png'
@@ -184,7 +185,6 @@ const Header = (observer(() => {
                     color="inherit"
                 >
                     <StyledBadge />
-                    {/* <Avatar /> */}
                 </IconButton>
                 <p>Profile</p>
             </MenuItem>
@@ -254,7 +254,6 @@ const Header = (observer(() => {
                             >
                                 <Avatar alt="Remy Sharp" src={profile} />
                             </StyledBadge>
-                            {/* <AccountCircle /> */}
                         </IconButton>
                     </Box>
                     <Box sx={{ display: { xs: 'flex', md: 'none' } }}>

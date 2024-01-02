@@ -1,13 +1,13 @@
 
 import React, { useState, useEffect } from 'react';
+import { observer } from 'mobx-react';
 import Tooltip from '@mui/material/Tooltip';
 import Box from '@mui/material/Box';
 import EditIcon from '@mui/icons-material/Edit';
 import Fab from '@mui/material/Fab';
-import Swal from 'sweetalert2';
 import { TextField, Button, DialogActions, DialogTitle, Dialog } from '@mui/material';
+import Swal from 'sweetalert2';
 import BusinessStore from '../../store/BusinessStore ';
-import { observer } from 'mobx-react';
 
 const EditDetails = observer(() => {
     const [formDetails, setformDetails] = useState(BusinessStore.data);

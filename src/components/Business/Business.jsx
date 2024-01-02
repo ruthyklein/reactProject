@@ -1,11 +1,12 @@
+import { observer } from 'mobx-react';
+import { useState } from 'react';
+import { Outlet, Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
-import { Outlet, Link } from "react-router-dom";
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { observer } from 'mobx-react';
-import { useState } from 'react';
+
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;

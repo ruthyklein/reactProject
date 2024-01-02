@@ -4,6 +4,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea, CardActions, Typography } from '@mui/material';
+
 import AddNewMeeting from '../addNewMeeting/AddNewMeeting';
 import ServiceStore from '../../store/ServiceStore';
 import GlobalStore from '../../store/GlobalStore';

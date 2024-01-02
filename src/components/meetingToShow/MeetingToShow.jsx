@@ -12,7 +12,6 @@ import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 import MeetingStore from '../../store/MeetingStore';
-
 import './MeetingToShow.css';
 
 const Accordion = styled((props) => (

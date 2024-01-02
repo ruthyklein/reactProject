@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { observer } from 'mobx-react';
+import Typography from "@mui/material/Typography";
+import Rating from '@mui/material/Rating';
 import BusinessStore from '../../store/BusinessStore ';
 import GlobalStore from '../../store/GlobalStore';
-import Typography from "@mui/material/Typography";
 import EditDetails from '../editDetails/EditDetails';
-import Rating from '@mui/material/Rating';
-
 
 const BusinessDetails = observer(() => {
 

@@ -41,7 +41,6 @@ const Admin = (observer(() => {
                     <BusinessDetails />
                     <Box sx={{ width: '100%' }}>
                         <LinearProgress variant="determinate" value={progress}  />
-                        {/* color="secondary" */}
                     </Box>
                     <Business />
                 </>
